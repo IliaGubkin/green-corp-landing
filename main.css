@@ -10,6 +10,10 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .header__logo {
@@ -24,6 +28,21 @@ a {
     text-decoration: none;
 }
   
+.icon {
+  margin-right: 8px;
+}
+
+.fa-angle-right {
+  margin-left: 8px;
+  font-size: 17px;
+  position: relative;
+  top: 1px;
+}
+
+.animate__animated {
+  animation-duration: 2s;
+}
+
 .form__container {
   width: 550px;
 }
@@ -199,3 +218,96 @@ footer {
   flex-direction: row;
 }
 
+@keyframes spin {
+  0%{
+    transform: rotate(0deg);
+  }
+
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.about__sun—image {
+  animation-name: spin;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  position: absolute;
+}
+
+/* Планшеты */
+@media (max-width: 1024px) {
+  .about {
+      padding: 115px 20px;
+  }
+
+  .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+
+  .about__image {
+      width: 280px;
+  }
+
+  .about__sun—image {
+      width: 75px;
+      height: 75px;
+  }
+}
+
+/* Мобильные устройства */
+@media (max-width: 720px) {
+  header {
+      padding: 10px;
+  }
+
+  button {
+    box-shadow: 0 7px 16px rgb(52 213 68 / 22%);
+    padding: 12px;
+  }
+
+  .header__logo {
+      height: 20px;
+  }
+
+  header a {
+      margin-right: 10px;
+  }
+
+  .about {
+      flex-direction: column-reverse;
+      padding: 50px 10px;
+  }
+
+  .about h1 {
+      font-size: 36px;
+      line-height: 40px;
+  }
+
+  .about__image {
+      width: 280px;
+  }
+
+  .about__sun—image {
+      width: 75px;
+      height: 75px;
+  }
+
+  .form {
+      padding: 50px 10px;
+  }
+
+  .form h1 {
+      font-size: 36px;
+  }
+
+  footer {
+      padding: 50px 10px;
+  }
+
+  .footer__container {
+      flex-direction: column;
+  }
+}
