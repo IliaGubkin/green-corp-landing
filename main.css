@@ -1,10 +1,9 @@
-
 body {
   font-family: 'Raleway', sans-serif;
   color: #213053;
   margin: 0;
 }
- 
+
 header {
   display: flex;
   justify-content: space-between;
@@ -17,17 +16,19 @@ header {
 }
 
 .header__logo {
-    height: 30px;
-    cursor: pointer;
-}
- #accept {
+  height: 30px;
   cursor: pointer;
- }
-a {
-    color: #213053;
-    text-decoration: none;
 }
-  
+
+#accept {
+  cursor: pointer;
+}
+
+a {
+  color: #213053;
+  text-decoration: none;
+}
+
 .icon {
   margin-right: 8px;
 }
@@ -46,79 +47,83 @@ a {
 .form__container {
   width: 550px;
 }
+
 header a {
-    font-size: 15px;
-    font-weight: 600;
-    margin-right: 25px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-right: 25px;
 }
 
 button {
-    font-family: 'Raleway', sans—serif;
-    font-size: 15px;
-    color: #fff;
-    background-color: #23a030;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
-    padding: 15px;
-    
-    box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
-  }
-  
-  .about {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-bottom: 115px;
-    padding-top: 115px;
-    background: url('img/back.png') no-repeat;
-    background-position: center;
-    background-size: cover;
-  }
+  font-family: 'Raleway', sans—serif;
+  font-size: 15px;
+  color: #fff;
+  background-color: #23a030;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  padding: 15px;
 
-.about__info {
-    margin-left: 25px;
-    max-width: 550px;
+  box-shadow: 0 16px 36px rgb(52 213 68 / 22%);
 }
 
-  .about h1 {
-font-size: 70px;
-line-height: 76px;
-  }
-  .about p {
-      font-size: 18px;
-      line-height: 30px;
-      opacity: 0.8;
-  }
-  .about button {
-      font-size: 18px;
-      border-radius: 20px;
-      padding-top: 20px;
-      padding-bottom: 20px;
-      padding-right: 25px;
-      padding-left: 25px;
-      margin-top: 20px
-    }
-  
-  .about__image {
-    width: 500px;
-  }
-   
-  .about__sun—image {
-    width: 100px;
-    height: 100px;
-  }
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 115px;
+  padding-top: 115px;
+  background: url('img/back.png') no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.about__info {
+  margin-left: 25px;
+  max-width: 550px;
+}
+
+.about h1 {
+  font-size: 70px;
+  line-height: 76px;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 30px;
+  opacity: 0.8;
+}
+
+.about button {
+  font-size: 18px;
+  border-radius: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px;
+  margin-top: 20px
+}
+
+.about__image {
+  width: 500px;
+}
+
+.about__sun—image {
+  width: 100px;
+  height: 100px;
+}
 
 .form {
   background-color: #1D263A;
   color: #fff;
-  top: 115px; 
+  top: 115px;
   padding-bottom: 115px;
   text-align: center;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
 }
+
 .form h1 {
   font-size: 48px;
 }
@@ -126,7 +131,7 @@ line-height: 76px;
 .form p {
   opacity: 0.65;
   font-size: 18px;
-} 
+}
 
 .form form {
   display: grid;
@@ -134,11 +139,68 @@ line-height: 76px;
   margin-top: 60px;
 }
 
+.features {
+  background-color: #fff;
+  padding-top: 115px;
+  padding-bottom: 60px;
+}
+
+.card {
+  height: 215px;
+  border-radius: 5px;
+  border: 1px solid #D9E4E6;
+  padding: 10px;
+  margin: 50px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+.cards cards_form {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 100px 300px;
+}
+
+.card p {
+  font-size: 16px;
+  opacity: 0.8;
+  line-height: 22px;
+}
+
+.card .fa-solar-panel {
+  color: #ffb406;
+}
+
+.letter {
+  color: #ad1714;
+}
+
+.fa-chart-line {
+  color: #22a030;
+}
+
+.card_logo {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 22px;
+  background-color: #eaeff9;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
 .form__group {
   display: flex;
   flex-direction: column;
   text-align: left;
-  align-items:stretch
+  align-items: stretch
 }
 
 .form label {
@@ -146,7 +208,9 @@ line-height: 76px;
   font-weight: 600;
   padding-bottom: 15px;
 }
-.form input, .form select {
+
+.form input,
+.form select {
   font-size: 18px;
   color: #213053;
   height: 60px;
@@ -159,6 +223,7 @@ line-height: 76px;
   font-size: 18px;
   font-weight: 600;
 }
+
 
 
 select {
@@ -201,10 +266,11 @@ footer {
   display: flex;
   flex-direction: column;
 }
+
 .footer__group h3 {
- font-size: 16px;
- opacity: 0.7;
- margin-bottom: 30px;
+  font-size: 16px;
+  opacity: 0.7;
+  margin-bottom: 30px;
 }
 
 .footer__links {
@@ -219,11 +285,11 @@ footer {
 }
 
 @keyframes spin {
-  0%{
+  0% {
     transform: rotate(0deg);
   }
 
-  100%{
+  100% {
     transform: rotate(360deg);
   }
 }
@@ -239,28 +305,28 @@ footer {
 /* Планшеты */
 @media (max-width: 1024px) {
   .about {
-      padding: 115px 20px;
+    padding: 115px 20px;
   }
 
   .about h1 {
-      font-size: 36px;
-      line-height: 40px;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .about__image {
-      width: 280px;
+    width: 280px;
   }
 
   .about__sun—image {
-      width: 75px;
-      height: 75px;
+    width: 75px;
+    height: 75px;
   }
 }
 
 /* Мобильные устройства */
 @media (max-width: 720px) {
   header {
-      padding: 10px;
+    padding: 10px;
   }
 
   button {
@@ -269,45 +335,53 @@ footer {
   }
 
   .header__logo {
-      height: 20px;
+    height: 20px;
   }
 
   header a {
-      margin-right: 10px;
+    margin-right: 10px;
   }
 
   .about {
-      flex-direction: column-reverse;
-      padding: 50px 10px;
+    flex-direction: column-reverse;
+    padding: 50px 10px;
   }
 
   .about h1 {
-      font-size: 36px;
-      line-height: 40px;
+    font-size: 36px;
+    line-height: 40px;
   }
 
   .about__image {
-      width: 280px;
+    width: 280px;
   }
 
   .about__sun—image {
-      width: 75px;
-      height: 75px;
+    width: 75px;
+    height: 75px;
   }
 
   .form {
-      padding: 50px 10px;
+    padding: 50px 10px;
   }
 
   .form h1 {
-      font-size: 36px;
+    font-size: 36px;
   }
 
+  .features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+
   footer {
-      padding: 50px 10px;
+    padding: 50px 10px;
   }
 
   .footer__container {
-      flex-direction: column;
+    flex-direction: column;
   }
 }
