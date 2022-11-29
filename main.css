@@ -327,6 +327,7 @@ button {
 .form__submit {
   font-size: 18px;
   font-weight: 600;
+  margin-top: 25px;
 }
 
 
@@ -413,6 +414,96 @@ footer {
     padding: 115px 20px;
   }
 
+  .footer__group {
+    margin-right: 55px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .features {
+    padding: 50px 10px 0px 10px;
+  }
+
+  .cards cards_form {
+    margin-left: 0px;
+    grid-template-columns: auto;
+  }
+
+  .card {
+    margin-right: 0px;
+    height: auto;
+    padding: 35px 40px 35px 40px;
+    margin-bottom: 40px;
+  }
+
+  .features__feedback {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+  }
+
+  .features__box {
+    color: rgb(255, 255, 255);
+    padding: 0px 0px 50px 0px;
+  }
+
+  .promo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .features__border {
+    margin-top: auto;
+  }
+
+  .features__feedback-left h2 {
+    font-size: 36px;
+  }
+
+  .features__box h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .features__savings-box {
+    margin-right: auto;
+    margin-right: 30px;
+  }
+
+  .promo__image {
+    background-image: url("../green-corp-landing/img/promo.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    width: auto;
+    height: 400px;
+  }
+
+  .promo__right {
+    width: auto;
+    padding: 40px 13px 40px 13px;
+  }
+
+  .features__feedback-left {
+    margin-right: auto;
+    margin-left: 0px;
+    padding: 30px 40px 40px 5px;
+  }
+
+  .promo__right-container button {
+    background-color: #107b1c;
+    margin: 19px auto auto auto;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+  }
+
+  .features__feedback-right {
+    display: flex;
+    flex-direction: column;
+  }
+
+
   .about h1 {
     font-size: 36px;
     line-height: 40px;
@@ -437,14 +528,17 @@ footer {
   button {
     box-shadow: 0 7px 16px rgb(52 213 68 / 22%);
     padding: 12px;
+    font-size: 11px;
   }
 
   .header__logo {
     height: 20px;
+    margin-right: 10px;
   }
 
   header a {
     margin-right: 10px;
+    font-size: 13px;
   }
 
   .about {
@@ -475,12 +569,91 @@ footer {
   }
 
   .features {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding: 50px 10px 0px 10px;
   }
 
+  .cards cards_form {
+    margin-left: 0px;
+    grid-template-columns: auto;
+  }
+
+  .card {
+    margin-right: 0px;
+    height: auto;
+    padding: 35px 40px 35px 40px;
+    margin-bottom: 40px;
+  }
+
+  .features__feedback {
+    display: flex;
+    flex-direction: column;
+    margin-top: -40px;
+  }
+
+  .features__box {
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+    padding: 0px 0px 50px 0px;
+  }
+
+
+  .promo {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .features__border {
+    margin-top: auto;
+  }
+
+  .features__feedback-left h2 {
+    font-size: 36px;
+  }
+
+  .features__box h3 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-size: 36px;
+  }
+
+  .features__savings-box {
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .promo__image {
+    background-image: url("../green-corp-landing/img/promo.jpg");
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    width: auto;
+    height: 400px;
+  }
+
+  .promo__right {
+    width: auto;
+    padding: 40px 13px 40px 13px;
+  }
+
+  .features__feedback-left {
+    margin-right: auto;
+    margin-left: 0px;
+    padding: 30px 40px 40px 5px;
+  }
+
+  .promo__right-container button {
+    background-color: #107b1c;
+    margin: 19px auto auto auto;
+    font-weight: 600;
+    padding: 15px 30px 15px 30px;
+  }
+
+  .features__feedback-right {
+    display: flex;
+    flex-direction: column;
+  }
 
   footer {
     padding: 50px 10px;
