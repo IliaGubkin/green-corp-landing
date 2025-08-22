@@ -25,6 +25,13 @@ header {
   color: white;
 }
 
+.test__red {
+  height: 30px;
+  cursor: pointer;
+  background-color: #a02323;
+  color: white;
+}
+
 .test1 {
       display: flex;
     flex-direction: column;
