@@ -12,11 +12,13 @@
 </head>
 
 <body>
+ 
   <header class="test1">
     <img class="header__logo" src='img/logo.svg'>
     <div >
       <a class="test" href="https://www.google.com/?hl=ru">Гугл: www.google.com</a>
     </div>
+    <button id="button">Click me to open popup</button>
     <div>
       <a class="test" href="gpbapp://gppay/main">ГазпромПэй: gpbapp://gppay/main</a>
 
@@ -38,6 +40,16 @@
       </a>
     </div>
   </header>
+   <script>
+    const button = document.getElementById('button')
+    button.onclick = () => {
+      window.open(
+        "https://www.google.com/?hl=ru",
+        "ExampleWindow",
+        "width=600,height=600,left=100,top=100"
+      );
+    }
+  </script>
   <section class="about">
     <canvas class="orb-canvas" id="orb-canvas"></canvas>
     <div class="about__info animate__animated animate__fadeInLeft">
